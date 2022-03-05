@@ -4,14 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleAppDemo
+namespace TeamConsoleTigers
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("hello world");
+            Console.WriteLine("Hello World! from 2nd project ");
+            Console.WriteLine("Hello World! from 2nd project");
             Console.ReadLine();
         }
     }
+     
 }
