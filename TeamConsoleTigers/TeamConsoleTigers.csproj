@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>TeamConsoleTigers.SwitchCaseExample4</StartupObject>
+    <StartupObject>TeamConsoleTigers.ForeachExample2</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,13 +48,19 @@
     <Compile Include="Conditionalbranching.cs" />
     <Compile Include="Conditionalbranching2.cs" />
     <Compile Include="Datatype.cs" />
+    <Compile Include="DoWhileLoopExample.cs" />
     <Compile Include="Employee.cs" />
+    <Compile Include="EmployeeModel.cs" />
+    <Compile Include="ForeachExample.cs" />
+    <Compile Include="ForeachExample2.cs" />
     <Compile Include="KnowSizeOfTypes.cs" />
+    <Compile Include="LoopingConstraint.cs" />
     <Compile Include="Mobile.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Staff.cs" />
     <Compile Include="SwitchCaseExample.cs" />
+    <Compile Include="WhileLoopExample.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
