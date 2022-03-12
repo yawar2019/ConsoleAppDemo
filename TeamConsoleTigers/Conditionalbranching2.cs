@@ -10,7 +10,7 @@ namespace TeamConsoleTigers
     {
         public static void Main()
         {
-            int a = 70, b=70,c= 70;
+            int a = 20, b=30,c= 40;
 
             //if block example
             //if(a>b)
