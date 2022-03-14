@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>TeamConsoleTigers.ForeachExample2</StartupObject>
+    <StartupObject>TeamConsoleTigers.Doctor</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,6 +48,7 @@
     <Compile Include="Conditionalbranching.cs" />
     <Compile Include="Conditionalbranching2.cs" />
     <Compile Include="Datatype.cs" />
+    <Compile Include="Doctor.cs" />
     <Compile Include="DoWhileLoopExample.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="EmployeeModel.cs" />
@@ -55,6 +56,8 @@
     <Compile Include="ForeachExample2.cs" />
     <Compile Include="KnowSizeOfTypes.cs" />
     <Compile Include="LoopingConstraint.cs" />
+    <Compile Include="MethodOverloading.cs" />
+    <Compile Include="MethodOverloading2.cs" />
     <Compile Include="Mobile.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
