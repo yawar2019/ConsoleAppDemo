@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>TeamConsoleTigers.ConstructorExample</StartupObject>
+    <StartupObject>TeamConsoleTigers.inheritance4</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -55,6 +55,7 @@
     <Compile Include="EmployeeModel.cs" />
     <Compile Include="ForeachExample.cs" />
     <Compile Include="ForeachExample2.cs" />
+    <Compile Include="inheritance1.cs" />
     <Compile Include="KnowSizeOfTypes.cs" />
     <Compile Include="LoopingConstraint.cs" />
     <Compile Include="MethodOverloading.cs" />
