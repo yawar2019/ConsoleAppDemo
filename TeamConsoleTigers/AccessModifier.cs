@@ -20,7 +20,7 @@ namespace TeamConsoleTigers
         public static void Main()
         {
             AccessModifier obj = new AccessModifier();
-            obj.a;
+         
         }
       
     }
@@ -34,3 +34,32 @@ namespace TeamConsoleTigers
 //4)internal---internal members within same class ,another class of same project
 //5)protected internal ---its member are accessible in same class and outside of class
 //                                of same project and in another project child class
+
+
+//In Our.netFramework we have two types of Assemblies
+//Private Assemblies
+//.exe type which u can click and execute
+
+
+//Shared Assemblies
+//.dll type which u can run or exute it you need supprt of.exe project you can execute your .dll code
+
+
+
+//what is Assemblies?
+//Assemblies are build code which can be either in the for of.dll or exe type
+
+
+//exe full form is executable file
+//dll full form is data link library
+
+//you cannot share your private assembly code to another project
+//you can share Shared Assembly code with other projects
+
+
+//if you want reusability of code create Shared Assembly project
+
+//How to Create Shared Assembly and Private Assembly Project
+
+//Shared Assembly project will class library type project
+//Private Assembly Project will beyou console application type project

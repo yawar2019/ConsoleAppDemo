@@ -4,16 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{123BD15A-7720-4B23-A1C3-4D7C30CE71AC}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{FE023D91-B3BB-4C46-866A-E437FE28516C}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TeamConsoleTigers</RootNamespace>
-    <AssemblyName>TeamConsoleTigers</AssemblyName>
+    <RootNamespace>BookLibrary</RootNamespace>
+    <AssemblyName>BookLibrary</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,16 +22,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>TeamConsoleTigers.ArrayExample</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -45,36 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AccessModifier.cs" />
-    <Compile Include="ArrayExample.cs" />
-    <Compile Include="Conditionalbranching.cs" />
-    <Compile Include="Conditionalbranching2.cs" />
-    <Compile Include="ConstructorExample.cs" />
-    <Compile Include="Datatype.cs" />
-    <Compile Include="Doctor.cs" />
-    <Compile Include="DoWhileLoopExample.cs" />
-    <Compile Include="Employee.cs" />
-    <Compile Include="EmployeeModel.cs" />
-    <Compile Include="ForeachExample.cs" />
-    <Compile Include="ForeachExample2.cs" />
-    <Compile Include="inheritance1.cs" />
-    <Compile Include="KnowSizeOfTypes.cs" />
-    <Compile Include="LoopingConstraint.cs" />
-    <Compile Include="MethodOverloading.cs" />
-    <Compile Include="MethodOverloading2.cs" />
-    <Compile Include="MethodOverridingExample.cs" />
-    <Compile Include="Mobile.cs" />
-    <Compile Include="PartialExample.cs" />
-    <Compile Include="PoyMorphism.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Books.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SealedExample.cs" />
-    <Compile Include="Staff.cs" />
-    <Compile Include="SwitchCaseExample.cs" />
-    <Compile Include="WhileLoopExample.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

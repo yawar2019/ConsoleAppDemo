@@ -8,7 +8,7 @@ namespace TeamConsoleTigers
 {
     class MethodOverridingExample
     {
-        public int a;
+        public int a=1;
         public  void Display()
         {
             Console.WriteLine("parent class display method is called");
