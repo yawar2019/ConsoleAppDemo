@@ -52,7 +52,7 @@ namespace TeamConsoleTigers
             // int[] studnetsId = { 1, 2, 3 };
             //string[] Name = { "Anil", "Sarita", "Kavita" };
 
-            int[] studnetsId = new int[3];
+            int[] studnetsId = new int[2];
             string[] Name = new string[3];
 
             Console.WriteLine(" enter three EmployeesId");

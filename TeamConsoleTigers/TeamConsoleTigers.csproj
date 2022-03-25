@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>TeamConsoleTigers.ArrayExample</StartupObject>
+    <StartupObject>TeamConsoleTigers.MultiDimentionalArray</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,6 +47,7 @@
   <ItemGroup>
     <Compile Include="AccessModifier.cs" />
     <Compile Include="ArrayExample.cs" />
+    <Compile Include="ArrayExample2.cs" />
     <Compile Include="Conditionalbranching.cs" />
     <Compile Include="Conditionalbranching2.cs" />
     <Compile Include="ConstructorExample.cs" />
@@ -64,6 +65,7 @@
     <Compile Include="MethodOverloading2.cs" />
     <Compile Include="MethodOverridingExample.cs" />
     <Compile Include="Mobile.cs" />
+    <Compile Include="MultiDimentionalArray.cs" />
     <Compile Include="PartialExample.cs" />
     <Compile Include="PoyMorphism.cs" />
     <Compile Include="Program.cs" />
