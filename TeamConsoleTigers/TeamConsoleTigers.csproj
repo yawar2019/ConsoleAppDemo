@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>TeamConsoleTigers.MultiDimentionalArray</StartupObject>
+    <StartupObject>TeamConsoleTigers.PropertiesExample2</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -59,6 +59,7 @@
     <Compile Include="ForeachExample.cs" />
     <Compile Include="ForeachExample2.cs" />
     <Compile Include="inheritance1.cs" />
+    <Compile Include="JaggedArray.cs" />
     <Compile Include="KnowSizeOfTypes.cs" />
     <Compile Include="LoopingConstraint.cs" />
     <Compile Include="MethodOverloading.cs" />
@@ -69,6 +70,7 @@
     <Compile Include="PartialExample.cs" />
     <Compile Include="PoyMorphism.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="PropertiesExample.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SealedExample.cs" />
     <Compile Include="Staff.cs" />

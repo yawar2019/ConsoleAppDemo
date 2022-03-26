@@ -11,10 +11,10 @@ namespace TeamConsoleTigers
 
         public static void Main()
         {
-            int[,] a = new int[3, 2] { 
+            int[,] a = new int[2, 2] { 
                                     { 1, 2 }, 
-                                    { 3, 4 },
                                     { 3, 4 }
+                                    
                                       };
             for (int i = 0; i < 2; i++)
             {
@@ -23,8 +23,9 @@ namespace TeamConsoleTigers
                     Console.Write(" "+a[i, j]);
 
                 }
+                Console.WriteLine();
+
             }
-            Console.WriteLine(a.Length);
 
             Console.ReadLine();
 
