@@ -9,7 +9,6 @@ namespace TeamConsoleTigers
     class PropertiesExample1
     {
         private int a;
-
         public string EmpName { get; set; }
         public int Emp
         {

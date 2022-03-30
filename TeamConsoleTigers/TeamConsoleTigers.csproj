@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>TeamConsoleTigers.PropertiesExample2</StartupObject>
+    <StartupObject>TeamConsoleTigers.RefAndOut</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -72,6 +72,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="PropertiesExample.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RefAndOut.cs" />
     <Compile Include="SealedExample.cs" />
     <Compile Include="Staff.cs" />
     <Compile Include="SwitchCaseExample.cs" />
