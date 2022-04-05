@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>TeamConsoleTigers.InterfaceClassExample</StartupObject>
+    <StartupObject>TeamConsoleTigers.NonGenericExample</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -69,6 +69,7 @@
     <Compile Include="MethodOverridingExample.cs" />
     <Compile Include="Mobile.cs" />
     <Compile Include="MultiDimentionalArray.cs" />
+    <Compile Include="NonGenericExample.cs" />
     <Compile Include="PartialExample.cs" />
     <Compile Include="PoyMorphism.cs" />
     <Compile Include="Program.cs" />
