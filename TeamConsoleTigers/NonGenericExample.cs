@@ -26,7 +26,7 @@ namespace TeamConsoleTigers
             //Console.WriteLine(al.Capacity);
             //Console.WriteLine(al[0]);
 
-            //foreach(object o in al)
+            //foreach (object o in al)
             //{
             //    Console.WriteLine(o);
             //}
@@ -70,17 +70,18 @@ namespace TeamConsoleTigers
             //    Console.WriteLine(item);
             //}
 
-            //Queue que = new Queue();//FIFO
-            //que.Enqueue(1);
-            //que.Enqueue(2);
-            //que.Enqueue(3);
+            Queue que = new Queue();//FIFO
+            que.Enqueue(1);
+            que.Enqueue(2);
+            que.Enqueue(3);
+            que.Dequeue();
 
             //que.Dequeue();//it  remove value from top
 
-            //foreach (object item in que)
-            //{
-            //    Console.WriteLine(item);
-            //}
+            foreach (object item in que)
+            {
+                Console.WriteLine(item);
+            }
 
             List<EmployeeModel> list = new List<EmployeeModel>();
             EmployeeModel emp1 = new EmployeeModel();
