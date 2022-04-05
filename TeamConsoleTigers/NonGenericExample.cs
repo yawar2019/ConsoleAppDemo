@@ -90,12 +90,12 @@ namespace TeamConsoleTigers
 
             EmployeeModel emp2 = new EmployeeModel();
             emp2.EmpId = 2;
-            emp2.FirstName = "t";
+            emp2.FirstName = "k";
 
 
             EmployeeModel emp3 = new EmployeeModel();
             emp3.EmpId = 3;
-            emp3.FirstName = "t";
+            emp3.FirstName = "r";
 
             list.Add(emp1);
             list.Add(emp2);
@@ -103,7 +103,7 @@ namespace TeamConsoleTigers
 
             foreach (var item in list)
             {
-                Console.WriteLine(item.EmpId);
+                Console.WriteLine(item.EmpId+","+item.FirstName);
             }
             Console.ReadLine();
 
