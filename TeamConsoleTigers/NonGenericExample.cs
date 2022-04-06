@@ -70,20 +70,21 @@ namespace TeamConsoleTigers
             //    Console.WriteLine(item);
             //}
 
-            Queue que = new Queue();//FIFO
-            que.Enqueue(1);
-            que.Enqueue(2);
-            que.Enqueue(3);
-            que.Dequeue();
+            //Queue que = new Queue();//FIFO
+            //que.Enqueue(1);
+            //que.Enqueue(2);
+            //que.Enqueue(3);
+            //que.Dequeue();
 
-            //que.Dequeue();//it  remove value from top
+            ////que.Dequeue();//it  remove value from top
 
-            foreach (object item in que)
-            {
-                Console.WriteLine(item);
-            }
+            //foreach (object item in que)
+            //{
+            //    Console.WriteLine(item);
+            //}
 
-            List<EmployeeModel> list = new List<EmployeeModel>();
+            //List<EmployeeModel> list = new List<EmployeeModel>();
+
             EmployeeModel emp1 = new EmployeeModel();
             emp1.EmpId = 1;
             emp1.FirstName = "t";
@@ -98,14 +99,76 @@ namespace TeamConsoleTigers
             emp3.EmpId = 3;
             emp3.FirstName = "r";
 
-            list.Add(emp1);
-            list.Add(emp2);
-            list.Add(emp3);
+            //list.Add(emp1);
+            //list.Add(emp2);
+            //list.Add(emp3);
 
-            foreach (var item in list)
-            {
-                Console.WriteLine(item.EmpId+","+item.FirstName);
-            }
+            //foreach (var item in list)
+            //{
+            //    Console.WriteLine(item.EmpId+","+item.FirstName);
+            //}
+
+            //Dictionary<int, string> dict = new Dictionary<int, string>();
+            //dict.Add(1, "Anu");
+            //dict.Add(2, "kanu");
+            //dict.Add(3, "tanu");
+
+            //Console.WriteLine(dict[3]);//to read any information from dictionary dict[key] 
+            //                           //eg:dict[3] 3 here is key
+            //foreach  (KeyValuePair<int,string> item in dict)
+            //{
+            //    Console.WriteLine(item.Key + "," + item.Value);
+            //}                           
+
+            //Dictionary<string, EmployeeModel> dict = new Dictionary<string, EmployeeModel>();
+            //dict.Add("FirstEmployee", emp1);
+            //dict.Add("SecondEmployee", emp2);
+            //dict.Add("ThirdEmployee", emp3);
+
+            //foreach (KeyValuePair<string,EmployeeModel> item in dict)
+            //{
+            //    Console.WriteLine(item.Key+","+item.Value.EmpId+","+item.Value.FirstName);
+            //}
+            //it store value and display value based on ascending order 
+            // SortedList<string, string> s1 = new SortedList<string, string>();
+            //s1.Add("sarita", "Btech");
+            //s1.Add("Farheen", "Biotech");
+            //s1.Add("Radha", "MCA");
+
+
+            //SortedList<int, string> s1 = new SortedList<int, string>();
+            //s1.Add(1, "Btech");
+            //s1.Add(21, "Biotech");
+            //s1.Add(13, "MCA");
+
+            //foreach (KeyValuePair<int, string> item in s1)
+            //{
+            //    Console.WriteLine(item.Key+":"+item.Value);
+            //}
+
+            //whatever item is store last will be printed first o/p 21,12,13 ,lifo
+            //Stack<int> lst = new Stack<int>();
+            //lst.Push(13);
+            //lst.Push(12);
+            //lst.Push(21);
+
+            //foreach (var item in lst)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            //fifo
+            //Queue<int> lst = new Queue<int>();
+            //lst.Enqueue(12);
+            //lst.Enqueue(2);
+            //lst.Enqueue(42);
+
+            //foreach (var item in lst)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+
             Console.ReadLine();
 
         }
