@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>TeamConsoleTigers.StaticClassExample</StartupObject>
+    <StartupObject>TeamConsoleTigers.ExtensionControlClass</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -59,6 +59,8 @@
     <Compile Include="EmployeeModel.cs" />
     <Compile Include="EnumerationExample.cs" />
     <Compile Include="EnumerationExample2.cs" />
+    <Compile Include="ExtensionControlClass.cs" />
+    <Compile Include="ExtensionExample.cs" />
     <Compile Include="ForeachExample.cs" />
     <Compile Include="ForeachExample2.cs" />
     <Compile Include="inheritance1.cs" />
